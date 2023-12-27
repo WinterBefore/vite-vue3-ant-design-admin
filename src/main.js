@@ -1,0 +1,13 @@
+import { createApp } from "vue";
+import { createPinia } from "pinia";
+import "./style.css";
+import App from "./App.vue";
+import Antd from "ant-design-vue";
+import "ant-design-vue/dist/reset.css";
+import router from "./router/index";
+import VueKinesis from "vue-kinesis";
+import "nprogress/nprogress.css";
+const pinia = createPinia();
+const app = createApp(App).use(VueKinesis);
+app.use(pinia).use(Antd).use(router);
+app.mount("#app");

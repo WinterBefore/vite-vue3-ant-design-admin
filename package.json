@@ -1,0 +1,31 @@
+{
+  "name": "vue-vant-admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "ant-design-vue": "^4.0.7",
+    "axios": "^1.6.2",
+    "echarts": "^5.4.3",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.8",
+    "vue-kinesis": "^2.0.5",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/vue": "^2.0.0",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "less": "^4.2.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.0"
+  }
+}
