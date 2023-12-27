@@ -167,7 +167,7 @@ const state = reactive<any>({
   openKeys: ["basic"],
   preOpenKeys: ["sub1"],
   userInfo: {
-    nickName: "又是一年冬",
+    nickName: "又是一年冬2",
   },
   // 左侧菜单数据
   leftNavData: [
@@ -209,7 +209,7 @@ onMounted(() => {
         delete item.children[i].component;
         delete item.children[i].meta;
         delete item.children[i].name;
-        delete item.children[i].icon;
+        delete item.children[i].icon;  
       }
     }
   });
