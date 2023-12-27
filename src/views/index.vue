@@ -190,7 +190,7 @@ watch(
   () => state.openKeys,
   (_val, oldVal) => {
     state.preOpenKeys = oldVal;
-  }  
+  }
 );
 onMounted(() => {
   console.log(state.leftNavData);
