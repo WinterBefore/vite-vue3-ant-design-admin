@@ -199,7 +199,7 @@ onMounted(() => {
   indexRoutes.map((item) => {
     delete item.component;
     delete item.meta;
-    delete item.name;
+    delete item.name; 
     delete item.path;
     // item.icon = () => h(item.icon);
     if (item.children) {
