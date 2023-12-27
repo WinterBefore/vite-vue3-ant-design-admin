@@ -167,7 +167,7 @@ const state = reactive<any>({
   openKeys: ["basic"],
   preOpenKeys: ["sub1"],
   userInfo: {
-    nickName: "又是一年冬2",
+    nickName: "又是一年冬",
   },
   // 左侧菜单数据
   leftNavData: [
